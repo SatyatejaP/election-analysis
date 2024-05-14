@@ -17,8 +17,10 @@ if 'lead_candidate_per_constituency_df' not in st.session_state:
 if 'votes_per_candidate_df' not in st.session_state:
     st.session_state['votes_per_candidate_df'] = pd.DataFrame()
 
-if 'top_parties_df' not in st.session_state:
-    st.session_state['top_parties_df'] = pd.DataFrame()
+if 'top_parties_per_constituency_df' not in st.session_state:
+    st.session_state['top_parties_per_constituency_df'] = pd.DataFrame()
+if 'party_vote_share_df' not in st.session_state:
+    st.session_state['party_vote_share_df'] = pd.DataFrame()
 
 
 def create_consumer(auto_offset_reset='earliest'):
@@ -87,11 +89,21 @@ class Visualizer:
             parties_leading_counts = st.session_state['votes_per_candidate_df'].groupby('party_name').size()
 
             # Get the top parties based on the number of constituencies they are leading in
-            top_parties = parties_leading_counts.nlargest()
-            top_parties_df = top_parties.reset_index()
-            top_parties_df.columns = ['party_name', 'leading_constituencies_count']
-            st.session_state['top_parties_df'] = top_parties_df
-            print("Updated Top Parties info")
+            top_parties_per_constituency = parties_leading_counts.nlargest()
+            top_parties_per_constituency_df = top_parties_per_constituency.reset_index()
+            top_parties_per_constituency_df.columns = ['party_name', 'leading_constituencies_count']
+            top_parties_per_constituency_df.sort_values('leading_constituencies_count', ascending=False)
+            st.session_state['top_parties_per_constituency_df'] = top_parties_per_constituency_df
+            print("Updated Top Parties per constituency info")
+
+
+            #Get top parties based on vote share in each constituency
+            party_vote_share_df = st.session_state['votes_per_candidate_df'].groupby('party_name')['vote_count'].sum().reset_index()
+            party_vote_share_df.columns = ['party_name', 'vote_share']
+            party_vote_share_df.sort_values('vote_share', ascending=False)
+            st.session_state['party_vote_share_df'] = party_vote_share_df
+            print("Updated Party Vote Share info")
+
             self.updateCounter += 1
 
 
@@ -106,15 +118,29 @@ st.session_state['viz'].updatePage()
 
 if not st.session_state.get('votes_per_candidate_df').empty:
     # Tab1
-    tab1.header("Party wise constituency share")
-    # party wise constituency share as pie chart
-    labels = st.session_state['top_parties_df']['party_name']
-    sizes = st.session_state['top_parties_df']['leading_constituencies_count']
+    tab1.header("Statistcs")
+
+    leading_party = st.session_state['votes_per_candidate_df'].groupby('party_name')['vote_count'].sum().idxmax()
+    tab1.subheader(f"Leading Party : {leading_party}")
+
+
+    tab1.subheader("Top 3 Parties")
+    top3parties = st.session_state['top_parties_per_constituency_df'].nlargest(3, 'leading_constituencies_count')
+    top3parties.columns = ['Party Name', 'Leading Constituencies Count']
+    tab1.table(top3parties.set_index('Party Name'))
+
+
+
+    tab1.subheader("Party wise vote share")
+    # party wise vote share as pie chart
+    labels = st.session_state['party_vote_share_df']['party_name']
+    sizes = st.session_state['party_vote_share_df']['vote_share']
     fig1, ax1 = plt.subplots()
     ax1.pie(sizes, labels=labels, autopct='%1.1f%%',
-            shadow=True, startangle=90)
+            shadow=False, startangle=90)
     ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
     tab1.pyplot(fig1)
+    # tab1.bar_chart(st.session_state['party_vote_share_df'].set_index('party_name'))
 
     # leads = st.session_state['top_parties_df'].filter(['party_name', 'leading_constituencies_count'])
     # tab1.table(leads.reset_index(drop=True))
