@@ -1,0 +1,29 @@
+{
+  "postgres" : {
+    "database" : "postgres",
+    "user" : "postgres",
+    "password" : "postgres",
+    "host": "localhost",
+    "port" : "5432",
+    "schema" : "election"
+  },
+
+  "sample_data" : {
+    "max_total_constituencies": 25,
+    "max_total_parties": 5,
+    "min_voters_per_constituency": 15,
+    "max_voters_per_constituency": 25,
+    "min_candidates_per_constituency" : 2,
+    "max_candidates_per_constituency": 4
+  },
+  "voting" : {
+    "iteration_time_in_ms" : 20000,
+    "votes_per_iteration" : 20
+  },
+  "kafka" : {
+    "bootstrap_servers" : "localhost:9092",
+    "checkpoint_location" : "checkPoint/session_{hash}",
+    "voting_topic" : "voting_test",
+    "aggregated_votes_topic" : "aggregated_votes"
+  }
+}

@@ -1,0 +1,2717 @@
+[
+  {
+    "id": "Q4696121",
+    "name": "Ahmedabad East",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q2738103",
+    "name": "Ahmednagar",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q4699904",
+    "name": "Ajmer",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q3633316",
+    "name": "Akbarpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3764391",
+    "name": "Akola",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q3595510",
+    "name": "Alappuzha",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q371869",
+    "name": "Aligarh",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4730342",
+    "name": "Allahabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4738368",
+    "name": "Alwar",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q4741186",
+    "name": "Ambedkar Nagar",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4745924",
+    "name": "Amethi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3765227",
+    "name": "Amreli",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q4748702",
+    "name": "Amritsar",
+    "state": "Punjab"
+  },
+  {
+    "id": "Q3633418",
+    "name": "Amroha",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3630236",
+    "name": "Anakapalli",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q4751232",
+    "name": "Anand",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q4751375",
+    "name": "Anandpur Sahib",
+    "state": "Punjab"
+  },
+  {
+    "id": "Q3630239",
+    "name": "Anantapuramu",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q4751497",
+    "name": "Anantnag",
+    "state": "Jammu & Kashmir"
+  },
+  {
+    "id": "Q3530684",
+    "name": "Andaman and Nicobar Islands",
+    "state": "Andaman & Nicobar"
+  },
+  {
+    "id": "Q4778703",
+    "name": "Aonla",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3534088",
+    "name": "Arakkonam",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3533589",
+    "name": "Arani",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3632717",
+    "name": "Araria",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3632604",
+    "name": "Arrah",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q1659329",
+    "name": "Arunachal East",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "id": "Q1659305",
+    "name": "Arunachal West",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "id": "Q4803541",
+    "name": "Asansol",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q4807113",
+    "name": "Aska",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q12413298",
+    "name": "Attingal",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q4822111",
+    "name": "Aurangabad",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3763786",
+    "name": "Aurangabad",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q16193457",
+    "name": "Azamgarh",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4840644",
+    "name": "Badaun",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4841427",
+    "name": "Bagalkot",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q3633352",
+    "name": "Baghpat",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4842446",
+    "name": "Baharampur",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q3633465",
+    "name": "Balaghat",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q4850118",
+    "name": "Balasore",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q4851665",
+    "name": "Ballia",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4853085",
+    "name": "Balurghat",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q3764387",
+    "name": "Banaskantha",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q1780136",
+    "name": "Banda",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4855038",
+    "name": "Bangalore Central",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q4855069",
+    "name": "Bangalore North",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q4855074",
+    "name": "Bangalore Rural",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q6509948",
+    "name": "Bangalore South",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q4856235",
+    "name": "Banka",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q4856799",
+    "name": "Bankura",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q3764398",
+    "name": "Baramati",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q4858316",
+    "name": "Baramulla",
+    "state": "Jammu & Kashmir"
+  },
+  {
+    "id": "Q4858448",
+    "name": "Barasat",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q4860137",
+    "name": "Bardhaman-Durgapur",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q4860392",
+    "name": "Bareilly",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4860546",
+    "name": "Bargarh",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q4861268",
+    "name": "Barmer",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q1606606",
+    "name": "Barpeta",
+    "state": "Assam"
+  },
+  {
+    "id": "Q4863171",
+    "name": "Barrackpore",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q4867561",
+    "name": "Basirhat",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q4868265",
+    "name": "Basti",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4869032",
+    "name": "Bathinda",
+    "state": "Punjab"
+  },
+  {
+    "id": "Q4879723",
+    "name": "Beed",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q4880639",
+    "name": "Begusarai",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3995921",
+    "name": "Belagavi",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q7255284",
+    "name": "Berhampur",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q4900529",
+    "name": "Bhadohi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3633257",
+    "name": "Bhagalpur",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3764433",
+    "name": "Bhandara-Gondiya",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q4901329",
+    "name": "Bharuch",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q4901564",
+    "name": "Bhavnagar",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q4901736",
+    "name": "Bhilwara",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q4901857",
+    "name": "Bhiwandi",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q4901856",
+    "name": "Bhiwani-Mahendragarh",
+    "state": "Haryana"
+  },
+  {
+    "id": "Q4901994",
+    "name": "Bhopal",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q4902092",
+    "name": "Bhubaneswar",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q4901952",
+    "name": "Bhuvanagiri",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q3883318",
+    "name": "Bidar",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q3633391",
+    "name": "Bijnor",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4907564",
+    "name": "Bilaspur",
+    "state": "Chhattisgarh"
+  },
+  {
+    "id": "Q4915625",
+    "name": "Birbhum",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q4938935",
+    "name": "Bolangir",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q4996106",
+    "name": "Buldhana",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q5003234",
+    "name": "Buxar",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3595248",
+    "name": "Chalakudy",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q5070983",
+    "name": "Chandauli",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5071061",
+    "name": "Chandigarh",
+    "state": "Chandigarh"
+  },
+  {
+    "id": "Q5071226",
+    "name": "Chandni Chowk",
+    "state": "Delhi"
+  },
+  {
+    "id": "Q2912408",
+    "name": "Chandrapur",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q5087772",
+    "name": "Chatra",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q3532474",
+    "name": "Chennai Central",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3532545",
+    "name": "Chennai North",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3532431",
+    "name": "Chennai South",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q5094314",
+    "name": "Chevella",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q5094902",
+    "name": "Chhindwara",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q5097405",
+    "name": "Chikballapur",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q3939251",
+    "name": "Chikodi",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q5102518",
+    "name": "Chittorgarh",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q5118333",
+    "name": "Churu",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q3534118",
+    "name": "Coimbatore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3534221",
+    "name": "Cuddalore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q5196922",
+    "name": "Cuttack",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q5208111",
+    "name": "Dadra and Nagar Haveli",
+    "state": "Dadra & Nagar Haveli"
+  },
+  {
+    "id": "Q5121423",
+    "name": "Dakshina Kannada",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q5211945",
+    "name": "Daman and Diu",
+    "state": "Daman & Diu"
+  },
+  {
+    "id": "Q12433303",
+    "name": "Damoh",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q5222212",
+    "name": "Darbhanga",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q5223069",
+    "name": "Darjeeling",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q4877000",
+    "name": "Davangere",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q3634176",
+    "name": "Deoria",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5268930",
+    "name": "Dhanbad",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q3532436",
+    "name": "Dharmapuri",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q5269410",
+    "name": "Dharwad",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q12434696",
+    "name": "Dhaurahra",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5269512",
+    "name": "Dhenkanal",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q1606616",
+    "name": "Dhubri",
+    "state": "Assam"
+  },
+  {
+    "id": "Q5269854",
+    "name": "Dhule",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q5270807",
+    "name": "Diamond Harbour",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q1606690",
+    "name": "Dibrugarh",
+    "state": "Assam"
+  },
+  {
+    "id": "Q3532565",
+    "name": "Dindigul",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q5289934",
+    "name": "Domariyaganj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5313570",
+    "name": "Dum Dum",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q3632662",
+    "name": "Durg",
+    "state": "Chhattisgarh"
+  },
+  {
+    "id": "Q5328213",
+    "name": "East Delhi",
+    "state": "Delhi"
+  },
+  {
+    "id": "Q3764062",
+    "name": "Eluru",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q3595497",
+    "name": "Ernakulam",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q5395251",
+    "name": "Erode",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3634262",
+    "name": "Etah",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5431351",
+    "name": "Faizabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5435282",
+    "name": "Faridabad",
+    "state": "Haryana"
+  },
+  {
+    "id": "Q5436365",
+    "name": "Farrukhabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5437428",
+    "name": "Fatehpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5437430",
+    "name": "Fatehpur Sikri",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5452174",
+    "name": "Firozabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5452175",
+    "name": "Firozepur",
+    "state": "Punjab"
+  },
+  {
+    "id": "Q5520735",
+    "name": "Gandhinagar",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q3632618",
+    "name": "Garhwal",
+    "state": "Uttarakhand"
+  },
+  {
+    "id": "Q1606633",
+    "name": "Gauhati",
+    "state": "Assam"
+  },
+  {
+    "id": "Q5527870",
+    "name": "Gautam Buddha Nagar",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5555886",
+    "name": "Ghatal",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q5556091",
+    "name": "Ghaziabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5556103",
+    "name": "Ghazipur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5557002",
+    "name": "Ghosi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5564263",
+    "name": "Giridih",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q5576233",
+    "name": "Godda",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q12424329",
+    "name": "Gonda",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5584396",
+    "name": "Gorakhpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3634168",
+    "name": "Guna",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q3764410",
+    "name": "Guntur",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q5619909",
+    "name": "Gurdaspur",
+    "state": "Punjab"
+  },
+  {
+    "id": "Q5620004",
+    "name": "Gurgaon",
+    "state": "Haryana"
+  },
+  {
+    "id": "Q3634165",
+    "name": "Gwalior",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q5679532",
+    "name": "Haasan",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q5645333",
+    "name": "Hamirpur",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "id": "Q5645332",
+    "name": "Hamirpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5657364",
+    "name": "Haridwar",
+    "state": "Uttarakhand"
+  },
+  {
+    "id": "Q12460207",
+    "name": "Hatkanangle",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q4628043",
+    "name": "Haveri",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q3632585",
+    "name": "Hazaribagh",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q3764429",
+    "name": "Hindupur",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q2912894",
+    "name": "Hingoli",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q12460611",
+    "name": "Hisar",
+    "state": "Haryana"
+  },
+  {
+    "id": "Q12460669",
+    "name": "Hooghly",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q3634240",
+    "name": "Hoshangabad",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q3348243",
+    "name": "Howrah",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q3764307",
+    "name": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q3595503",
+    "name": "Idukki",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q3634194",
+    "name": "Indore",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q6035471",
+    "name": "Inner Manipur",
+    "state": "Manipur"
+  },
+  {
+    "id": "Q6109952",
+    "name": "Jabalpur",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q12428678",
+    "name": "Jadavpur",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q12428505",
+    "name": "Jahanabad",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q6124117",
+    "name": "Jaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q6124137",
+    "name": "Jaipur Rural",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q6126754",
+    "name": "Jalgaon",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q6126930",
+    "name": "Jalna",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q6126953",
+    "name": "Jalore",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q6147990",
+    "name": "Jammu",
+    "state": "Jammu & Kashmir"
+  },
+  {
+    "id": "Q6148068",
+    "name": "Jamnagar",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q6148213",
+    "name": "Jamshedpur",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q6154054",
+    "name": "Jangipur",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q6164852",
+    "name": "Jaunpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q6190793",
+    "name": "Jhalawar-Baran",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q6190886",
+    "name": "Jhanjharpur",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3634171",
+    "name": "Jhansi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q6191216",
+    "name": "Jhunjhunu",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q6207835",
+    "name": "Jodhpur",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q6278852",
+    "name": "Jorhat",
+    "state": "Assam"
+  },
+  {
+    "id": "Q6311592",
+    "name": "Junagadh",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q3764405",
+    "name": "Kadapa",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q12420818",
+    "name": "Kairana",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3634204",
+    "name": "Kaiserganj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3764050",
+    "name": "Kakinada",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q6350138",
+    "name": "Kalahandi",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q1606642",
+    "name": "Kaliabor",
+    "state": "Assam"
+  },
+  {
+    "id": "Q6353510",
+    "name": "Kallakurichi",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3763943",
+    "name": "Kalyan",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q11679513",
+    "name": "Kandhamal",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q6362861",
+    "name": "Kangra",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "id": "Q12418036",
+    "name": "Kannauj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3595261",
+    "name": "Kannur",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q11032972",
+    "name": "Kanpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3351410",
+    "name": "Kanthi",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q12418045",
+    "name": "Kanyakumari",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q6368090",
+    "name": "Karakat",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3764353",
+    "name": "Karimnagar",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q6372812",
+    "name": "Karnal",
+    "state": "Haryana"
+  },
+  {
+    "id": "Q3532480",
+    "name": "Karur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3595257",
+    "name": "Kasaragod",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q3633289",
+    "name": "Katihar",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q6389017",
+    "name": "Kendrapara",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q6398926",
+    "name": "Khadoor Sahib",
+    "state": "Punjab"
+  },
+  {
+    "id": "Q6398963",
+    "name": "Khagaria",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3634359",
+    "name": "Khajuraho",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q3764091",
+    "name": "Khammam",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q3634216",
+    "name": "Khandwa",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q6401180",
+    "name": "Kheda",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q13512175",
+    "name": "Kheri",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q12419668",
+    "name": "Kishanganj",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q6425227",
+    "name": "Kodarma",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q13512172",
+    "name": "Kolhapur",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q3348171",
+    "name": "Kolkata Dakshin",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q6427315",
+    "name": "Kolkata Uttar",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q3595286",
+    "name": "Kollam",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q4348317",
+    "name": "Koppal",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q6431463",
+    "name": "Korba",
+    "state": "Chhattisgarh"
+  },
+  {
+    "id": "Q6433781",
+    "name": "Kota",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q3595519",
+    "name": "Kottayam",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q3595239",
+    "name": "Kozhikode",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q3534043",
+    "name": "Krishnagiri",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q6437565",
+    "name": "Krishnanagar",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q3763840",
+    "name": "Kurnool",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q6447358",
+    "name": "Kurukshetra",
+    "state": "Haryana"
+  },
+  {
+    "id": "Q12420304",
+    "name": "Kushi Nagar",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4252512",
+    "name": "Ladakh",
+    "state": "Jammu & Kashmir"
+  },
+  {
+    "id": "Q1609659",
+    "name": "Lakhimpur",
+    "state": "Assam"
+  },
+  {
+    "id": "Q6479803",
+    "name": "Lakshadweep",
+    "state": "Lakshadweep"
+  },
+  {
+    "id": "Q6697765",
+    "name": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q6698772",
+    "name": "Ludhiana",
+    "state": "Punjab"
+  },
+  {
+    "id": "Q3765244",
+    "name": "Machilipatnam",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q6727220",
+    "name": "Madha",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q6727343",
+    "name": "Madhepura",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3632704",
+    "name": "Madhubani",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3534013",
+    "name": "Madurai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3630208",
+    "name": "Mahabubnagar",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q6733274",
+    "name": "Maharajganj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q6733273",
+    "name": "Maharajganj",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q12446106",
+    "name": "Mahasamund",
+    "state": "Chhattisgarh"
+  },
+  {
+    "id": "Q6733840",
+    "name": "Mahesana",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q6736725",
+    "name": "Mainpuri",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q6741311",
+    "name": "Malappuram",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q6742775",
+    "name": "Maldaha Dakshin",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q6742776",
+    "name": "Maldaha Uttar",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q6743862",
+    "name": "Malkajgiri",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q6748042",
+    "name": "Mandi",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "id": "Q6748216",
+    "name": "Mandsaur",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q5187868",
+    "name": "Mandya",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q1606654",
+    "name": "Mangaldoi",
+    "state": "Assam"
+  },
+  {
+    "id": "Q3634234",
+    "name": "Mathura",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q6794117",
+    "name": "Maval",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q3534106",
+    "name": "Mayiladuturai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3764036",
+    "name": "Medak",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q6806969",
+    "name": "Medinipur",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q12447565",
+    "name": "Meerut",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q6874958",
+    "name": "Mirzapur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3635773",
+    "name": "Moradabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3663904",
+    "name": "Morena",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q6935304",
+    "name": "Mumbai North",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q6935308",
+    "name": "Mumbai North Central",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q6935309",
+    "name": "Mumbai North East",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q6935311",
+    "name": "Mumbai North West",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q12446954",
+    "name": "Mumbai South",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q12446954",
+    "name": "Mumbai South",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q3633242",
+    "name": "Munger",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q6939683",
+    "name": "Murshidabad",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q3630669",
+    "name": "Muzaffarnagar",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3633305",
+    "name": "Muzaffarpur",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q5332086",
+    "name": "Mysore",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q1659313",
+    "name": "Nagaland",
+    "state": "Nagaland"
+  },
+  {
+    "id": "Q6958697",
+    "name": "Nagaur",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q3764455",
+    "name": "Nagpur",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q6959714",
+    "name": "Nainital-Udhamsingh Nagar",
+    "state": "Uttarakhand"
+  },
+  {
+    "id": "Q6960794",
+    "name": "Nalanda",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3763969",
+    "name": "Nalgonda",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q6961238",
+    "name": "Namakkal",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3764021",
+    "name": "Nanded",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q3764367",
+    "name": "Nandyal",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q3764443",
+    "name": "Narasaraopet",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q3763879",
+    "name": "Narsapuram",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q6966848",
+    "name": "Nashik",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q6982569",
+    "name": "Navsari",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q3633321",
+    "name": "Nawada",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3764509",
+    "name": "Nellore",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q13118215",
+    "name": "New Delhi",
+    "state": "Delhi"
+  },
+  {
+    "id": "Q3764335",
+    "name": "Nizamabad",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q7055185",
+    "name": "North East Delhi",
+    "state": "Delhi"
+  },
+  {
+    "id": "Q12416142",
+    "name": "North Goa",
+    "state": "Goa"
+  },
+  {
+    "id": "Q1606595",
+    "name": "Nowgong",
+    "state": "Assam"
+  },
+  {
+    "id": "Q3764026",
+    "name": "Ongole",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q2738086",
+    "name": "Osmanabad",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q3595511",
+    "name": "Palakkad",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q7127504",
+    "name": "Pali",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q7130343",
+    "name": "Panchmahal",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q3763828",
+    "name": "Parbhani",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q7141801",
+    "name": "Paschim Champaran",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q7144222",
+    "name": "Pataliputra",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q7144231",
+    "name": "Patan",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q7144692",
+    "name": "Pathanamthitta",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q7144911",
+    "name": "Patiala",
+    "state": "Punjab"
+  },
+  {
+    "id": "Q7145114",
+    "name": "Patna Sahib",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3534214",
+    "name": "Perambalur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q7188338",
+    "name": "Phulpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q7193997",
+    "name": "Pilibhit",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3534217",
+    "name": "Pollachi",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3595235",
+    "name": "Ponnani",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q7229961",
+    "name": "Porbandar",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q7238619",
+    "name": "Pratapgarh",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3532557",
+    "name": "Puducherry",
+    "state": "Puducherry"
+  },
+  {
+    "id": "Q7260097",
+    "name": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q6528588",
+    "name": "Puri",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q3633423",
+    "name": "Purnia",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q7261625",
+    "name": "Purulia",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q7261669",
+    "name": "Purvi Champaran",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q7281907",
+    "name": "Rae Bareli",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q7283812",
+    "name": "Raigad",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q12449852",
+    "name": "Raiganj",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q12449885",
+    "name": "Raipur",
+    "state": "Chhattisgarh"
+  },
+  {
+    "id": "Q3764342",
+    "name": "Rajahmundry",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q3764476",
+    "name": "Rajampet",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q3632253",
+    "name": "Rajgarh",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q11222818",
+    "name": "Rajkot",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q7286332",
+    "name": "Rajnandgaon",
+    "state": "Chhattisgarh"
+  },
+  {
+    "id": "Q7286417",
+    "name": "Rajsamand",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q3532492",
+    "name": "Ramanathapuram",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q7290061",
+    "name": "Rampur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q7290802",
+    "name": "Ranchi",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q12448769",
+    "name": "Ratnagiri-Sindhudurg",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q7296597",
+    "name": "Raver",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q7319005",
+    "name": "Rewa",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q7359839",
+    "name": "Rohtak",
+    "state": "Haryana"
+  },
+  {
+    "id": "Q7395911",
+    "name": "Sabarkantha",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q7399007",
+    "name": "Sagar",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q7399517",
+    "name": "Saharanpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3532569",
+    "name": "Salem",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q11031937",
+    "name": "Salempur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q7255845",
+    "name": "Sambalpur",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q7409031",
+    "name": "Sambhal",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q7418045",
+    "name": "Sangli",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q7418135",
+    "name": "Sangrur",
+    "state": "Punjab"
+  },
+  {
+    "id": "Q7419095",
+    "name": "Sant Kabir Nagar",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q7423046",
+    "name": "Saran",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3763891",
+    "name": "Satara",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q12455246",
+    "name": "Satna",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q3764327",
+    "name": "Secunderabad",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q7494394",
+    "name": "Sheohar",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q4876992",
+    "name": "Shimoga",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q7499000",
+    "name": "Shirur",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q7503442",
+    "name": "Shrawasti",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q7508585",
+    "name": "Sidhi",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q7513596",
+    "name": "Sikar",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q1659321",
+    "name": "Sikkim",
+    "state": "Sikkim"
+  },
+  {
+    "id": "Q1606626",
+    "name": "Silchar",
+    "state": "Assam"
+  },
+  {
+    "id": "Q7531640",
+    "name": "Sitamarhi",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3630783",
+    "name": "Sitapur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3534136",
+    "name": "Sivaganga",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q7532526",
+    "name": "Siwan",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q7561886",
+    "name": "Sonipat",
+    "state": "Haryana"
+  },
+  {
+    "id": "Q7567023",
+    "name": "South Delhi",
+    "state": "Delhi"
+  },
+  {
+    "id": "Q7567370",
+    "name": "South Goa",
+    "state": "Goa"
+  },
+  {
+    "id": "Q7585738",
+    "name": "Sreerampur",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q3764487",
+    "name": "Srikakulam",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q7586418",
+    "name": "Srinagar",
+    "state": "Jammu & Kashmir"
+  },
+  {
+    "id": "Q3534197",
+    "name": "Sriperumbudur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q7636812",
+    "name": "Sultanpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q12457988",
+    "name": "Supaul",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q7645435",
+    "name": "Surat",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q7645700",
+    "name": "Surendranagar",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q3351485",
+    "name": "Tamluk",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q7694914",
+    "name": "Tehri Garhwal",
+    "state": "Uttarakhand"
+  },
+  {
+    "id": "Q1606703",
+    "name": "Tezpur",
+    "state": "Assam"
+  },
+  {
+    "id": "Q7710231",
+    "name": "Thane",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q3534230",
+    "name": "Thanjavur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q7781368",
+    "name": "Theni",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q7785502",
+    "name": "Thiruvananthapuram",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q3534206",
+    "name": "Thoothukudi",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3595199",
+    "name": "Thrissur",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q3532420",
+    "name": "Tiruchirappalli",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3533981",
+    "name": "Tirunelveli",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q7809406",
+    "name": "Tiruppur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q7809457",
+    "name": "Tiruvannamalai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q7821522",
+    "name": "Tonk-Sawai Madhopur",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q7843879",
+    "name": "Tripura West",
+    "state": "Tripura"
+  },
+  {
+    "id": "Q5245318",
+    "name": "Tumkur",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q7877193",
+    "name": "Udhampur",
+    "state": "Jammu & Kashmir"
+  },
+  {
+    "id": "Q7877355",
+    "name": "Udupi Chikmagalur",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q7878191",
+    "name": "Ujiarpur",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3348210",
+    "name": "Uluberia",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q7897148",
+    "name": "Unnao",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4756549",
+    "name": "Uttara Kannada",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q3595264",
+    "name": "Vadakara",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q7908337",
+    "name": "Vadodara",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q7908854",
+    "name": "Vaishali",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q7912496",
+    "name": "Valmiki Nagar",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3630705",
+    "name": "Varanasi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3534098",
+    "name": "Vellore",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q7928100",
+    "name": "Vidisha",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q3765236",
+    "name": "Vijayawada",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q3534127",
+    "name": "Virudhunagar",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3763974",
+    "name": "Visakhapatnam",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q7938017",
+    "name": "Vizianagaram",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q3764479",
+    "name": "Wardha",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q7975848",
+    "name": "Wayanad",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q7984938",
+    "name": "West Delhi",
+    "state": "Delhi"
+  },
+  {
+    "id": "Q8050386",
+    "name": "Yavatmal-Washim",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q8064692",
+    "name": "Zahirabad",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q4693670",
+    "name": "Agra",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3764468",
+    "name": "Ahmedabad West",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q4708818",
+    "name": "Alathur",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q3632592",
+    "name": "Almora",
+    "state": "Uttarakhand"
+  },
+  {
+    "id": "Q3630204",
+    "name": "Amalapuram",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q4740955",
+    "name": "Ambala",
+    "state": "Haryana"
+  },
+  {
+    "id": "Q3764491",
+    "name": "Amravati",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q4783993",
+    "name": "Arambagh",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q4842725",
+    "name": "Bahraich",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4855093",
+    "name": "Bangaon",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q4857123",
+    "name": "Bansgaon",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3630032",
+    "name": "Bapatla",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q3633461",
+    "name": "Barabanki",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q4860138",
+    "name": "Bardhaman Purba",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q4900550",
+    "name": "Bhadrak",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q4901252",
+    "name": "Bharatpur",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q3634246",
+    "name": "Bhind",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q4907176",
+    "name": "Bijapur",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q4907311",
+    "name": "Bikaner",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q4917381",
+    "name": "Bishnupur",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q4940018",
+    "name": "Bolpur",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q3634190",
+    "name": "Bulandshahr",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5069470",
+    "name": "Chamarajanagar",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q3533974",
+    "name": "Chidambaram",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q5102316",
+    "name": "Chitradurga",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q3763885",
+    "name": "Chittoor",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q3351420",
+    "name": "Cooch Behar",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q15649259",
+    "name": "Dewas",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q5402455",
+    "name": "Etawah",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5435297",
+    "name": "Faridkot",
+    "state": "Punjab"
+  },
+  {
+    "id": "Q5437417",
+    "name": "Fatehgarh Sahib",
+    "state": "Punjab"
+  },
+  {
+    "id": "Q5521052",
+    "name": "Ganganagar",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q3633170",
+    "name": "Gaya",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3633217",
+    "name": "Gopalganj",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q4172532",
+    "name": "Gulbarga",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q3633148",
+    "name": "Hajipur",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q5656282",
+    "name": "Hardoi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5681557",
+    "name": "Hathras",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q5908015",
+    "name": "Hoshiarpur",
+    "state": "Punjab"
+  },
+  {
+    "id": "Q6122268",
+    "name": "Jagatsinghpur",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q6124378",
+    "name": "Jajpur",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q6126633",
+    "name": "Jalandhar",
+    "state": "Punjab"
+  },
+  {
+    "id": "Q6126683",
+    "name": "Jalaun",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3348198",
+    "name": "Jalpaiguri",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q12428079",
+    "name": "Jamui",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q6154769",
+    "name": "Janjgir",
+    "state": "Chhattisgarh"
+  },
+  {
+    "id": "Q6167862",
+    "name": "Jaynagar",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q6344634",
+    "name": "Kachchh",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q12418931",
+    "name": "Kancheepuram",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q6368815",
+    "name": "Karauli-Dholpur",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q1606665",
+    "name": "Karimganj",
+    "state": "Assam"
+  },
+  {
+    "id": "Q6378946",
+    "name": "Kaushambi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q6427060",
+    "name": "Kolar",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q6480280",
+    "name": "Lalganj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3764461",
+    "name": "Latur",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q6723526",
+    "name": "Machhlishahr",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q6787367",
+    "name": "Mathurapur",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q3595483",
+    "name": "Mavelikara",
+    "state": "Kerala"
+  },
+  {
+    "id": "Q6875956",
+    "name": "Misrikh",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3823603",
+    "name": "Mohanlalganj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3533967",
+    "name": "Nagapattinam",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3630009",
+    "name": "Nagarkurnool",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q6958833",
+    "name": "Nagina",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q3534177",
+    "name": "Nilgiris",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q7057245",
+    "name": "North West Delhi",
+    "state": "Delhi"
+  },
+  {
+    "id": "Q3632686",
+    "name": "Palamu",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q3764496",
+    "name": "Peddapalli",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q3764361",
+    "name": "Ramtek",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q7290693",
+    "name": "Ranaghat",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q7352073",
+    "name": "Robertsganj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q7408890",
+    "name": "Samastipur",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q3633377",
+    "name": "Sasaram",
+    "state": "Bihar"
+  },
+  {
+    "id": "Q7461799",
+    "name": "Shahjahanpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "id": "Q7496887",
+    "name": "Shimla",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "id": "Q3763762",
+    "name": "Shirdi",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q7530618",
+    "name": "Sirsa",
+    "state": "Haryana"
+  },
+  {
+    "id": "Q3764439",
+    "name": "Solapur",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q3532578",
+    "name": "Tenkasi",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q7785493",
+    "name": "Thiruvallur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q7801879",
+    "name": "Tikamgarh",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q3764514",
+    "name": "Tirupati",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q3630725",
+    "name": "Ujjain",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q3532551",
+    "name": "Viluppuram",
+    "state": "Tamil Nadu"
+  },
+  {
+    "id": "Q3763938",
+    "name": "Warangal",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q3630014",
+    "name": "Adilabad",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q4726846",
+    "name": "Alipurduars",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q3633068",
+    "name": "Araku",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "id": "Q1606679",
+    "name": "Autonomous District",
+    "state": "Assam"
+  },
+  {
+    "id": "Q4857164",
+    "name": "Banswara",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q4860193",
+    "name": "Bardoli",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q4868222",
+    "name": "Bastar",
+    "state": "Chhattisgarh"
+  },
+  {
+    "id": "Q3521014",
+    "name": "Bellary",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q4899044",
+    "name": "Betul",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q5094957",
+    "name": "Chhota Udaipur",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q5208930",
+    "name": "Dahod",
+    "state": "Gujarat"
+  },
+  {
+    "id": "Q5228102",
+    "name": "Dausa",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q3634185",
+    "name": "Dhar",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q5278011",
+    "name": "Dindori",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q5313895",
+    "name": "Dumka",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q12423118",
+    "name": "Gadchiroli-Chimur",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q6190927",
+    "name": "Jhargram",
+    "state": "West Bengal"
+  },
+  {
+    "id": "Q12418918",
+    "name": "Kanker",
+    "state": "Chhattisgarh"
+  },
+  {
+    "id": "Q11059079",
+    "name": "Keonjhar",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q279102",
+    "name": "Khargone",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q6403035",
+    "name": "Khunti",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q1606670",
+    "name": "Kokrajhar",
+    "state": "Assam"
+  },
+  {
+    "id": "Q6431426",
+    "name": "Koraput",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q6667970",
+    "name": "Lohardaga",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q6732720",
+    "name": "Mahabubabad",
+    "state": "Telangana"
+  },
+  {
+    "id": "Q3630763",
+    "name": "Mandla",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q6798125",
+    "name": "Mayurbhanj",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q1659299",
+    "name": "Mizoram",
+    "state": "Mizoram"
+  },
+  {
+    "id": "Q6956755",
+    "name": "Nabarangpur",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q6963393",
+    "name": "Nandurbar",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q7111989",
+    "name": "Outer Manipur",
+    "state": "Manipur"
+  },
+  {
+    "id": "Q7127479",
+    "name": "Palghar",
+    "state": "Maharashtra"
+  },
+  {
+    "id": "Q4172533",
+    "name": "Raichur",
+    "state": "Karnataka"
+  },
+  {
+    "id": "Q7283824",
+    "name": "Raigarh",
+    "state": "Chhattisgarh"
+  },
+  {
+    "id": "Q7286307",
+    "name": "Rajmahal",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q7295816",
+    "name": "Ratlam",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q12453868",
+    "name": "Shahdol",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "id": "Q7496680",
+    "name": "Shillong",
+    "state": "Meghalaya"
+  },
+  {
+    "id": "Q3632303",
+    "name": "Singhbhum",
+    "state": "Jharkhand"
+  },
+  {
+    "id": "Q7639274",
+    "name": "Sundargarh",
+    "state": "Orissa"
+  },
+  {
+    "id": "Q255234",
+    "name": "Surguja",
+    "state": "Chhattisgarh"
+  },
+  {
+    "id": "Q7843852",
+    "name": "Tripura East",
+    "state": "Tripura"
+  },
+  {
+    "id": "Q7853631",
+    "name": "Tura",
+    "state": "Meghalaya"
+  },
+  {
+    "id": "Q7876885",
+    "name": "Udaipur",
+    "state": "Rajasthan"
+  },
+  {
+    "id": "Q7912607",
+    "name": "Valsad",
+    "state": "Gujarat"
+  }
+]
