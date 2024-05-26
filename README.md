@@ -52,13 +52,13 @@ pip install -r requirements.txt
 ## Usage
 1. Run the docker-compose file
 ```bash
-docker-compose up
+docker-compose up -d
 ```
 2. Run the sample data generator
 ```bash
 python sample_data_generator.py
 ```
-3. Once the Sample Data Generator complestes, Run the voting process
+3. Once the Sample Data Generator completes, Run the voting process
 ```bash
 python do_voting.py
 ```
@@ -69,4 +69,8 @@ python realtime_analysis.py
 5. Run the streamlit dashboard
 ```bash
 streamlit run dashboard.py
+```
+6. Stop the docker containers once done
+```bash
+docker-compose down
 ```
