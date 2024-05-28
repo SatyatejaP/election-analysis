@@ -1,8 +1,10 @@
 import random
 import string
+import uuid
 
 import requests
 import simplejson as json
+from datetime import datetime
 from utils import postgres_cnf, sample_data_cnf, getDbConn
 
 random_user_url = 'https://randomuser.me/api?nat=in'
@@ -36,40 +38,51 @@ def get_parties():
     return parties
 
 
-def generate_candidate(num: int, party_id: string, constituency_id: string):
-    response = requests.get(random_user_url + '&gender=' + ('male' if num % 2 == 0 else 'female'))
-
-    if response.status_code == 200:
-        data = response.json()['results'][0]
-        return {
-            'id': data['id']['value'],
-            'name': f"{data['name']['title']} {data['name']['first']} {data['name']['last']}",
-            'gender': data['gender'],
-            'age': data['dob']['age'],
-            'photo_url': data['picture']['large'],
-            'party_id': party_id,
-            'constituency_id': constituency_id,
-        }
-    else:
+def generate_candidates(num: int, constituency_id: string):
+    response = requests.get(random_user_url + f'&results={num}')
+    if response.status_code != 200:
         raise Exception("Failed fetching candidate resources")
+    pars: list = list(map(lambda x: x['id'], get_parties()))
+    filtered_parties = list(filter(lambda x: x not in ['INC', 'BJP'], pars))
+
+    candidates = []
+    for i in range(num):
+        data = response.json()['results'][i]
+        party_id = None
+        if i == 0:
+            isBJPContesting = random.randint(0, 10) % 2 == 0
+            if isBJPContesting:
+                party_id = 'BJP'
+        elif i == 1:
+            isINCContesting = random.randint(0, 10) % 2 == 0
+            if isINCContesting:
+                party_id = 'INC'
+
+        if party_id is None:
+            party_id = random.choice(filtered_parties)
+
+        candidates.append((
+            str(uuid.uuid4()),
+            f"{data['name']['title']} {data['name']['first']} {data['name']['last']}",
+            data['gender'],
+            data['dob']['age'],
+            data['picture']['large'],
+            party_id,
+            constituency_id,
+        ))
+    return candidates
 
 
-def push_candidate(conn, cand):
+def push_candidates(conn, candidates):
     cursor = conn.cursor()
     sql = f"""
-                            INSERT INTO {postgres_cnf['schema']}.candidates (id, name, gender, age, photo_url, party_id, constituency_id)
-                            VALUES (%s, %s, %s, %s, %s, %s, %s)
-                        """
-    cursor.execute(sql, (cand['id'], cand['name'], cand['gender'], cand['age'], cand['photo_url'], cand['party_id'],
-                         cand['constituency_id']))
-    conn.commit()
+                            INSERT INTO {postgres_cnf['schema']}.candidates (id, name, gender, age, photo_url, 
+                            party_id, constituency_id) VALUES (%s, %s, %s, %s, %s, %s, %s)"""
+    cursor.executemany(sql, candidates)
 
 
 def populate_candidates():
     cons = list(map(lambda x: x['id'], get_constituencies()))
-    pars: list = list(map(lambda x: x['id'], get_parties()))
-    filtered_parties = list(filter(lambda x: x not in ['INC', 'BJP'], pars))
-
     conn = getDbConn()
 
     for con in cons:
@@ -78,56 +91,40 @@ def populate_candidates():
         if num % 2 == 0:
             num += 1
         print(f"generating [{num}] candidates for constituency: {con}")
-        isBJPContesting = random.randint(0, 10) % 2 == 0
-        isINCContesting = random.randint(0, 10) % 2 == 0
-
-        if isBJPContesting:
-            num -= 1
-            cand = generate_candidate(num, 'BJP', con)
-            push_candidate(conn, cand)
-
-        if isINCContesting:
-            num -= 1
-            cand = generate_candidate(num, 'INC', con)
-            push_candidate(conn, cand)
-
-        for i in range(num):
-            party_id = random.choice(filtered_parties)
-            cand = generate_candidate(i, party_id, con)
-            push_candidate(conn, cand)
+        candidates = generate_candidates(num, con)
+        push_candidates(conn, candidates)
 
     conn.commit()
     conn.close()
 
 
-def push_voter(conn, voter):
+def push_voters(conn, voters):
     cursor = conn.cursor()
-    sql = f"""
-                            INSERT INTO {postgres_cnf['schema']}.voters (id, name, gender, age, city, state, pincode, phone_number, constituency_id)
-                            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
-                        """
-    cursor.execute(sql, (
-        voter['id'], voter['name'], voter['gender'], voter['age'], voter['city'], voter['state'], voter['pincode'],
-        voter['phone_number'], voter['constituency_id']))
+    sql = f""" INSERT INTO {postgres_cnf['schema']}.voters (id, name, gender, age, city, state, pincode, phone_number, constituency_id) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"""
+    cursor.executemany(sql, voters)
 
 
-def generate_voter(num: int, con: string):
-    response = requests.get(random_user_url + '&gender=' + ('male' if num % 2 == 0 else 'female'))
+def generate_voters(num: int, con: string):
+    voters = []
+    response = requests.get(random_user_url + f'&results={num}')
     if response.status_code == 200:
-        data = response.json()['results'][0]
-        return {
-            'id': data['id']['value'],
-            'name': data['name']['title'] + ' ' + data['name']['first'] + ' ' + data['name']['last'],
-            'gender': data['gender'],
-            'age': data['dob']['age'],
-            'city': data['location']['city'],
-            'state': data['location']['state'],
-            'pincode': data['location']['postcode'],
-            'phone_number': data['phone'],
-            'constituency_id': con,
-        }
+        for i in range(num):
+            data = response.json()['results'][i]
+            voters.append((
+                str(uuid.uuid4()),
+                data['name']['title'] + ' ' + data['name']['first'] + ' ' + data['name']['last'],
+                data['gender'],
+                data['dob']['age'],
+                data['location']['city'],
+                data['location']['state'],
+                data['location']['postcode'],
+                data['phone'],
+                con
+            ))
     else:
         raise Exception("Failed fetching voter resources")
+
+    return voters
 
 
 def populate_voters():
@@ -137,13 +134,12 @@ def populate_voters():
     for con in constituencies:
         num = random.randint(sample_data_cnf['min_voters_per_constituency'],
                              sample_data_cnf['max_voters_per_constituency'])
-        print(f"populating [{num}] voters for {con}")
 
-        for i in range(num):
-            voter = generate_voter(i, con)
-            push_voter(conn, voter)
+        voters = generate_voters(num, con)
+        push_voters(conn, voters)
+
         conn.commit()
-        print(f"populated [{num}] voters for {con}")
+        print(f"generated [{num}] voters for {con}")
 
     conn.close()
 
@@ -190,8 +186,11 @@ def createTables():
 
 
 if __name__ == '__main__':
+    start_time = datetime.now().time()
     createTables()
     populate_parties()
     populate_constituencies()
     populate_candidates()
     populate_voters()
+    end_time = datetime.now().time()
+    print(f'Start time :{start_time} and end time: {end_time}')
