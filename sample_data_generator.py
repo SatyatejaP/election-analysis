@@ -6,6 +6,8 @@ import requests
 import simplejson as json
 from datetime import datetime
 from utils import postgres_cnf, sample_data_cnf, getDbConn
+from concurrent.futures import ThreadPoolExecutor
+from functools import reduce
 
 random_user_url = 'https://randomuser.me/api?nat=in'
 constituencies: any = None
@@ -38,7 +40,12 @@ def get_parties():
     return parties
 
 
-def generate_candidates(num: int, constituency_id: string):
+def generate_candidates(constituency_id: string):
+    num = random.randint(sample_data_cnf['min_candidates_per_constituency'],
+                         sample_data_cnf['max_candidates_per_constituency'])
+
+    if num % 2 == 0:
+        num += 1
     response = requests.get(random_user_url + f'&results={num}')
     if response.status_code != 200:
         raise Exception("Failed fetching candidate resources")
@@ -70,6 +77,8 @@ def generate_candidates(num: int, constituency_id: string):
             party_id,
             constituency_id,
         ))
+
+    print(f"generated [{num}] candidates for constituency: {constituency_id}")
     return candidates
 
 
@@ -84,15 +93,11 @@ def push_candidates(conn, candidates):
 def populate_candidates():
     cons = list(map(lambda x: x['id'], get_constituencies()))
     conn = getDbConn()
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        results = executor.map(generate_candidates, cons)
 
-    for con in cons:
-        num = random.randint(sample_data_cnf['min_candidates_per_constituency'],
-                             sample_data_cnf['max_candidates_per_constituency'])
-        if num % 2 == 0:
-            num += 1
-        print(f"generating [{num}] candidates for constituency: {con}")
-        candidates = generate_candidates(num, con)
-        push_candidates(conn, candidates)
+    candidates = reduce(union, results, [])
+    push_candidates(conn, candidates)
 
     conn.commit()
     conn.close()
@@ -104,7 +109,9 @@ def push_voters(conn, voters):
     cursor.executemany(sql, voters)
 
 
-def generate_voters(num: int, con: string):
+def generate_voters(con: string):
+    num = random.randint(sample_data_cnf['min_voters_per_constituency'],
+                         sample_data_cnf['max_voters_per_constituency'])
     voters = []
     response = requests.get(random_user_url + f'&results={num}')
     if response.status_code == 200:
@@ -124,23 +131,28 @@ def generate_voters(num: int, con: string):
     else:
         raise Exception("Failed fetching voter resources")
 
+    print(f"generated [{num}] voters for {con}")
     return voters
+
+
+def union(lst1, lst2):
+    return lst1 + lst2
 
 
 def populate_voters():
     conn = getDbConn()
     constituencies = map(lambda x: x['id'], get_constituencies())
 
-    for con in constituencies:
-        num = random.randint(sample_data_cnf['min_voters_per_constituency'],
-                             sample_data_cnf['max_voters_per_constituency'])
+    results = []
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        results = executor.map(generate_voters, constituencies)
 
-        voters = generate_voters(num, con)
-        push_voters(conn, voters)
+    voters = reduce(union, results, [])
 
-        conn.commit()
-        print(f"generated [{num}] voters for {con}")
-
+    print('pushing voters to db...')
+    push_voters(conn, voters)
+    print('pushed voters to db...')
+    conn.commit()
     conn.close()
 
 
